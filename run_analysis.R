@@ -55,7 +55,7 @@ getTidyFile <- function()
     all1.c <-dcast(all1.m, subject+activity_desc~variable, mean)
 
   ## write out the CSV file
-    write.csv(all1.c, "tidyfile.csv")
+    write.table(all1.c, "tidyfile.txt", sep = ",", row.names = FALSE)
 }
 
 
