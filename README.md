@@ -13,6 +13,15 @@ All the following files should be directly available in the working directory -
 - X_train.txt
 - Y_train.txt
 
+Procedure to run the code. 
+
+- Download run_analysis.R file in the working directory
+- load the R file using source("run_analysis")
+- execute the function getTidyFile() to produce the tidy file named as "tidyfile.txt" in the working directory.
+- the file is CSV file but has an extension of .txt as Coursera does not allow uploading .CSV files.
+
+
+
 
 
 
